@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Cards</title>
+    <style>
+        /* Reset default margin and padding */
+body, div, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the testimonial container */
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style each testimonial card */
+.testimonial-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply gradient background to alternate cards */
+.gradient-background {
+    background: linear-gradient(45deg, #ff9900, #ff3399); /* Adjust gradient colors */
+    color: #fff;
+}
+
+/* Style the testimonial content */
+.testimonial-content {
+    font-size: 16px;
+}
+
+/* Add more styles as needed */
+
+    </style>
+</head>
+<body>
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu justo nec sodales.</p>
+                <p><strong>John Doe</strong></p>
+            </div>
+        </div>
+        <div class="testimonial-card gradient-background">
+            <div class="testimonial-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu justo nec sodales.</p>
+                <p><strong>Jane Smith</strong></p>
+            </div>
+        </div>
+        <!-- Add more testimonial cards here -->
+    </div>
+</body>
+</html>

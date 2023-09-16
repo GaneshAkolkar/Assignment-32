@@ -1,0 +1,37 @@
+/* Reset default margin and padding for the body and lists */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the navigation bar horizontally */
+.navbar {
+    text-align: center;
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px 0; /* Add some padding for spacing */
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style: none; /* Remove default list styles */
+    display: inline-block; /* Display the list horizontally */
+}
+
+/* Style the list items */
+.nav-list li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 20px; /* Add spacing between items */
+}
+
+/* Style the links */
+.nav-list li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for the links */
+    font-size: 18px; /* Font size for the links */
+    font-weight: bold; /* Bold text for the links */
+}
+
+/* Hover effect for links */
+.nav-list li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

@@ -1,0 +1,25 @@
+/* Your existing styles here */
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none; /* Hide the navigation links */
+    }
+
+    /* Style the hamburger icon */
+    .hamburger-menu {
+        display: block; /* Display the hamburger icon */
+        cursor: pointer;
+        font-size: 24px;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    /* Show the navigation links when the menu is active */
+    .menu-active .nav-list {
+        display: block;
+        text-align: center;
+    }
+}
